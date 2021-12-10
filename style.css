@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* CSS Shadow */
+.shadow {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 5px 5px red;
+  box-shadow: 0 0 blueviolet,
+              0 0 blue,
+              0 0 skyblue,
+              0 0 green,
+              0 0 yellow,
+              0 0 orangered;
+  transition: all 0.3s linear;
+}
+
+.shadow:hover {
+  background-color: red;
+  box-shadow: -200px 0 blueviolet,
+              -400px 0 blue,
+              -600px 0 skyblue,
+              200px 0 green,
+              400px 0 yellow,
+              600px 0 orangered;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  text-shadow: 1px 1px 1px blue;
+}
